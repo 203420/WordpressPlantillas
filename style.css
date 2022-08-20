@@ -477,6 +477,20 @@ main{
     margin-top: 2.25em;
     width: 100%;
 }
+.icon-contact{
+    width: 1.35em;
+    margin-right: 1em;
+}
+.contact-info-text{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.4em;
+}
+.contact-info-text p{
+    color: #303030;
+    font-size: 0.95rem;
+    line-height: 1.5em;
+}
 .contact-img{
     background-image: url('./img/contact2.png');
     background-repeat: no-repeat;
@@ -489,14 +503,18 @@ main{
 .contact-data{
 	color: #303030;
     display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin: auto;
-    margin-top: 2em;
+    margin-top: 1.75em;
+    padding: 0.5em 0.25em;
     width: 90%;
 }
 .contact-data h6{
     color: #303030;
 	font-size: 0.95rem;
-    margin-bottom: 0.8em;
+    margin-bottom: 0.7em;
 }
 .forms-card{
     background-color: #f9f9f9;
@@ -764,7 +782,7 @@ footer{
         width: 40%;
     }
     main{
-        margin-top: 5em;
+        margin-top:6em;
         width: 80%;
     }
     .container{
@@ -810,10 +828,10 @@ footer{
         background-color: #ffffff;
         border-radius: 0.5em;
         box-shadow: 0 8px 20px 0 rgba(153, 153, 153, .25);
-        height: 8em;
+        height: 8.6em;
         margin: 0;
         margin-bottom: 0.5em;
-        padding: 1em 1.25em;
+        padding: 1.35em 1.25em;
         width: 100%;
     }
     footer{
